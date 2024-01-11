@@ -6,7 +6,7 @@ import { ICart, ICartDataSingle } from "@/interfaces/cart.interface";
 
 interface ISingleCartData {
   cart: ICart;
-  cartDataLength: number;
+  cartDataLength?: number;
 }
 
 const CartItem = ({ cart, cartDataLength }: ISingleCartData) => {  
