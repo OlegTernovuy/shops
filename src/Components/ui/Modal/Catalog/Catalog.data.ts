@@ -14,7 +14,7 @@ import allItems from "../../../../../public/catalogIcons/all_items.svg";
 
 
 
-export const CatalogItem = [
+export const CatalogItem = [ 
     {
         icon: laptop,
         title: 'Ноутбуки та компʼютери',
